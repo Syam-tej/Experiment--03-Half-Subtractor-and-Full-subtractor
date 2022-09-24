@@ -39,7 +39,7 @@ Developed by: P.SYAM TEJ
 RegisterNumber:  212221240056
 ```
 ### HALF SUBTRACTOR
-
+```
 module sam(A,B,Difference,Borrow);
 input A,B;
 output Difference, Borrow;
@@ -48,9 +48,9 @@ xor (Difference,A,B);
 not (x,A);
 and (Borrow,x,B);
 endmodule
-
+```
 ### FULL SUBTRACTOR
-
+```
 module sam2(A,B,C,Diff,Borrow);
 input A,B,C;
 output Diff,Borrow;
@@ -59,7 +59,7 @@ assign Diff = ((A^B)^C);
 not(p,A);
 assign Borrow = ((p&B)|(p&C)|(B&C));
 endmodule
-
+```
 ## Output:
 ### HALF SUBTRACTOR
 ## Truthtable
