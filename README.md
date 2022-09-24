@@ -64,6 +64,7 @@ endmodule
 ### HALF SUBTRACTOR
 ## Truthtable
 
+![Uploading Screenshot 2022-09-24 at 10.01.47 PM.png…]()
 
 
 ##  RTL realization
@@ -77,6 +78,7 @@ endmodule
 ### FULL SUBTRACTOR
 ## Truthtable
 
+<img width="493" alt="halftruth" src="https://user-images.githubusercontent.com/93427224/192108990-025b9d15-1cb8-41c5-bb2b-1863f3f69e20.png">
 
 ##  RTL realization
 
